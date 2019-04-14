@@ -1,7 +1,8 @@
 const express = require('express')
-const mongoose = require('mongoose')
+const mongoose = require('mongoose') // ORM: object-relational mapping
 const bodyParser = require('body-parser')
 
+// import routes
 const items = require('./routes/api/items')
 
 const app = express()
